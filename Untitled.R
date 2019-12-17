@@ -28,6 +28,9 @@ movie_data$RATING
 z=movie_data$RATING
 table(z)
 summary(z)
+barplot(z)
+pie(z)
+hist(z)
 
 
 
