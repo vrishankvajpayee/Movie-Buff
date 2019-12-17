@@ -21,3 +21,12 @@ barplot(x,xlab = "Certificate",ylab = "Number of Movies",col = c('red','green','
 barplot(x,xlab = "Certificate",ylab = "Number of Movies",col = c('red','green','yellow'),ylim = c(0,80),main = "The censor of the films",width = 0.75)
 barplot(x,xlab = "Certificate",ylab = "Number of Movies",col = c('red','green','yellow'),ylim = c(0,80),main = "The censor of the films",width = 1)
 barplot(x,xlab = "Certificate",ylab = "Number of Movies",col = c('red','green','yellow'),ylim = c(0,80),main = "The censor of the films",width = 5)
+movie_data$MOVIE
+
+table(movie_data$MOVIE)
+movie_data$RATING
+z=movie_data$RATING
+table(z)
+summary(z)
+
+
