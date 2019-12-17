@@ -9,4 +9,5 @@ x=table(movie_data$CERTIFICATE)
 x
 barplot(x)
 
-
+barplot(x,xlab = "Certificate",ylab = "Number of Movies")
+barplot(x,xlab = "Certificate",ylab = "Number of Movies",col = c('red','green','yellow')) barplot(x,xlab = "Certificate",ylab = "Number of Movies",col = c('red','green','yellow'),ylim = (0,100))
