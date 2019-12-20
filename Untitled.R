@@ -1,7 +1,7 @@
-read.csv(file.choose())#file import
+read.csv(file.choose())
 movie_data=read.csv(file.choose())
 movie_data
-dim(movie_data)#returms dimensions of the data
+dim(movie_data)
 names(movie_data)
 movie_data$CERTIFICATE
 table(movie_data$CERTIFICATE)
@@ -31,6 +31,8 @@ summary(z)
 barplot(z)
 pie(z)
 hist(z)
+mean(z)
 
-
+summary(z)
+boxplot(z)
 
