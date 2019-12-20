@@ -1,7 +1,7 @@
-read.csv(file.choose())
+read.csv(file.choose())#file import
 movie_data=read.csv(file.choose())
 movie_data
-dim(movie_data)
+dim(movie_data)#returms dimensions of the data
 names(movie_data)
 movie_data$CERTIFICATE
 table(movie_data$CERTIFICATE)
