@@ -35,4 +35,7 @@ mean(z)
 
 summary(z)
 boxplot(z)
-
+boxplot(z,col = 'red')
+boxplot(z,col = 'red')
+barplot(z,movie_data$MOVIE)
+density(z)
