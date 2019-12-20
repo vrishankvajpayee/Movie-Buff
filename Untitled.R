@@ -39,3 +39,13 @@ boxplot(z,col = 'red')
 boxplot(z,col = 'red')
 barplot(z,movie_data$MOVIE)
 density(z)
+density.default(z)
+density(z)
+plot(z)
+k=density(z)
+plot(k)
+plot(k,col='orange')
+plot(k,col='orange',border='blue')
+polygon(k,col='orange',border='blue')
+
+
