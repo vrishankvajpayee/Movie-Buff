@@ -47,5 +47,8 @@ plot(k)
 plot(k,col='orange')
 plot(k,col='orange',border='blue')
 polygon(k,col='orange',border='blue')
+polygon(k,col='orange',border='blue',main='The rating')
+plot(k,main='The rating')
+polygon(k,col='orange',border='blue')
 
 
