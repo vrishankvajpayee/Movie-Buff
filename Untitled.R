@@ -50,7 +50,7 @@ polygon(k,col='orange',border='blue')
 polygon(k,col='orange',border='blue',main='The rating')
 plot(k,main='The rating')
 polygon(k,col='orange',border='blue')
-boxplot(z,col = 'red',main='The overview of the rating')
+boxplot(z,col = 'red',main='The overview of the rating')# mean median one
 
 
 
