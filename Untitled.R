@@ -34,7 +34,7 @@ pie(z)
 hist(z)
 mean(z)
 
-summary(z)
+summary(z)#summary
 boxplot(z)
 boxplot(z,col = 'red')
 boxplot(z,col = 'red')
