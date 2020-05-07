@@ -5,7 +5,7 @@ dim(movie_data)#for the dimensions
 
 names(movie_data)
 movie_data$CERTIFICATE
-table(movie_data$CERTIFICATE)
+table(movie_data$CERTIFICATE)#tabullar columns
 x=table(movie_data$CERTIFICATE)
 
 barplot(x)
